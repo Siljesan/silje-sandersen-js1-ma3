@@ -1,0 +1,55 @@
+.card {
+  width: 200px;
+  height: 200px;
+  border: solid 2px black;
+  margin: 20px;
+  padding: 10px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.danger {
+  background-color: rgb(255 124 124);
+  color: red;
+  border: solid 1px red;
+  padding: 20px;
+  transition: 2s;
+}
+
+.success {
+  background-color: rgb(148, 247, 139);
+  color: darkgreen;
+  border: solid 1px darkgreen;
+  padding: 20px;
+  transition: 2s;
+}
+
+.warning {
+  background-color: rgb(255, 200, 80);
+  color: orange;
+  border: solid 1px orange;
+  padding: 20px;
+  transition: 2s;
+}
+
+.information {
+  background-color: rgb(108, 238, 255);
+  color: blue;
+  border: solid 1px blue;
+  padding: 20px;
+  transition: 2s;
+}
+
+.hide {
+  display: none;
+}
+.gif {
+  width: 700px;
+  display: block;
+  margin: 200px auto;
+}
